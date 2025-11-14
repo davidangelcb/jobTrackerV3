@@ -1,0 +1,99 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-primary {
+  background-color: #1c1c6b !important;
+}
+
+.bg-secondary {
+    background-color: #F5F5F5 !important;
+}
+
+.text-primary {
+    color: #241D5D !important;
+}
+
+.text-secondary {
+    color: #333333 !important;
+}
+
+.text-blue {
+    color: #007AFF !important;
+}
+
+.fw-100 {
+    font-weight: 100 !important;
+}
+
+.fw-200 {
+    font-weight: 200 !important;
+}
+
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.btn-share {
+    background-color: #EDF7FF;
+    color: #007AFF;
+    border: 1px solid #0088FF;
+    font-size: 1rem;
+    padding: 1px 5px;
+}
+.btn-share:hover,
+.btn-share:focus {
+  background-color: #d0eaff;
+  border-color: #0088FF;
+}
+
+.btn-share:active {
+  background-color: #b3ddff;
+  border-color: #0088FF;
+}
+
+.lh-normal {
+    line-height: normal !important;
+}
+
+.main-menu button span {
+    font-size: 12px !important;
+}
+
+hr {
+    border:.5px solid !important;
+}
+
+main h1 {
+    font-size: 1rem !important;
+    color: #241D5D !important;
+}

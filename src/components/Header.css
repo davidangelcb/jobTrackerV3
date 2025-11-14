@@ -1,0 +1,27 @@
+.header-top {
+    font-size: 14px;
+}
+
+.header-top .tracking span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header-status .turn-clean {
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.header-status .status {
+    font-size: 14px !important;
+    margin-left: 0.5rem;
+    font-weight: 700;
+    background-color: #EEF2FA;
+    padding: 4px 10px;
+}
+
+.header-status .support {
+    color: #241D5D;
+    font-size: 14px !important;
+    margin-left: 0.5rem;
+}
