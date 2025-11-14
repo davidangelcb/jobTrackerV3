@@ -1,0 +1,13 @@
+.loader-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.loader-wrapper img {
+  width: 120px;
+  height: auto;
+}

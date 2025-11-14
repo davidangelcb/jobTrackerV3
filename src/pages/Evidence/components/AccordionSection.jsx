@@ -18,17 +18,17 @@ export default function AccordionSection() {
       key: "section-1", 
       title: "Front Door (Unit Number)", 
       min: { before: 2, after: 1 }, 
-      max: { before: 3, after: 3 } 
+      max: { before: 5, after: 5 } 
     },
     { 
       key: "section-2", 
       title: "Kitchen - Appliances (Door Open)", 
       min: { before: 1, after: 1 }, 
-      max: { before: 3, after: 3 } 
+      max: { before: 5, after: 3 } 
     },
-    { key: "section-3", title: "Living Room", min: { before: 1, after: 1 }, max: { before: 1, after: 1 } },
-    { key: "section-4", title: "Bedrooms", min: { before: 1, after: 1 }, max: { before: 2, after: 2 } },
-    { key: "section-5", title: "Bathrooms", min: { before: 1, after: 1 }, max: { before: 2, after: 2 } },
+    { key: "section-3", title: "Living Room", min: { before: 1, after: 1 }, max: { before: 3, after: 3 } },
+    { key: "section-4", title: "Bedrooms", min: { before: 1, after: 1 }, max: { before: 3, after: 3 } },
+    { key: "section-5", title: "Bathrooms", min: { before: 1, after: 1 }, max: { before: 3, after: 3 } },
     { key: "section-6", title: "Others (Not Required)", min: { before: 0, after: 0 }, max: { before: 1, after: 1 } },
   ];
 

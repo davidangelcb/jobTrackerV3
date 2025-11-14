@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
-import { useJobStore } from "./store/useJobStore";
+import { useGlobalStore } from "./store/useGlobalStore";
 import LocationPage from "./pages/Location/LocationPage";
 import EvidencePage from "./pages/Evidence/EvidencePage";
 import SummaryPage from "./pages/Summary/SummaryPage";
 import OrientationOverlay from './components/OrientationOverlay';
 
 export default function App() {
-  const activeMenu = useJobStore((state) => state.activeMenu);
+  const activeMenu = useGlobalStore((state) => state.activeMenu);
 
   const renderPage = () => {
     switch (activeMenu) {

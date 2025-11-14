@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { useJobStore } from "../store/useJobStore";
+import { useGlobalStore } from "../store/useGlobalStore";
 
 export default function Menu() {
-  const { activeMenu, setActiveMenu } = useJobStore();
+  const { activeMenu, setActiveMenu } = useGlobalStore();
 
   const menus = [
     { id: "location", label: "Location", icon: "bi-cursor-fill" },

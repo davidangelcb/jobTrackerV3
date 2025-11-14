@@ -21,8 +21,8 @@ export default function Header() {
         </div>
 
         <div className="d-flex align-items-center">
-          <span className="status text-blue me-2 rounded-4">
-            • Scheduled
+          <span className="status text-blue me-2 rounded-4 in-progress">
+            • In Progress
           </span>
           <span className="support">
             <i className="bi bi-question-circle-fill fs-3 me-0"></i>

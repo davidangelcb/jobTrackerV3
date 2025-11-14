@@ -4,9 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/styles/global.css'
 import './assets/styles/fonts.css';
 import App from './App.jsx'
+import Initializer from "./bootstrap/Initializer.jsx";
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <Initializer>
     <App />
-  </StrictMode>,
+  </Initializer>,
 )
